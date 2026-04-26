@@ -226,3 +226,64 @@ button:hover {
     text-align: left;
     font-family: "Open-sans", sans-serif;
 }
+
+/* Menu Section Code  */
+
+.menu {
+    background-color: var(--background-color);
+}
+
+.menu-content h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 2rem;
+    font-weight: 600;
+    color: var(--text-color);
+    font-family: "Open-Sans", sans-serif;
+}
+
+.menu-content p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    font-family: "Open-sans", sans-serif;
+    font-weight: bolder;
+}
+
+.menu-content span {
+    color: var(--primary-color);
+}
+
+.menu-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 0 7rem 0 7rem;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.food-img {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0 40px 120px 60px;
+}
+
+.food-img img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
