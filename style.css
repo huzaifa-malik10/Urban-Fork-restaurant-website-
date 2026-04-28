@@ -303,10 +303,13 @@ button:hover {
 
 /* About Section Code  */
 
+.about-section {
+    padding: 2rem;
+}
+
 .about-content h1 {
     text-align: center;
     font-size: 4rem;
-    margin-top: 2rem;
     font-weight: 600;
     color: var(--text-color);
     font-family: "Open-Sans", sans-serif;
@@ -320,6 +323,7 @@ button:hover {
     text-align: center;
     font-size: 2.5rem;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     font-weight: 600;
     color: var(--text-color);
     font-family: "Open-Sans", sans-serif;
@@ -332,4 +336,32 @@ button:hover {
     text-align: center;
     font-family: "Open-sans", sans-serif;
     font-weight: bolder;
+}
+
+.why-chose-us {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    font-weight: 600;
+    color: var(--text-color);
+    font-family: "Open-Sans", sans-serif;
+}
+
+.why-chose-us span {
+    color: var(--primary-color);
+}
+
+.why-chose-us img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+.stars {
+    color: gold;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem
 }
