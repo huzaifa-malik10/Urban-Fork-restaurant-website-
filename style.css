@@ -567,6 +567,8 @@ footer {
     display: none;
 }
 
+/* Responsiveness Section Code  */
+
 @media (max-width: 896px) {
 
     .nav-links {
@@ -587,6 +589,9 @@ footer {
     .hamburger {
         display: block;
         font-size: 1.5rem;
+    }
+
+    .hamburger a {
         color: var(--primary-color);
     }
 
@@ -599,6 +604,7 @@ footer {
         padding: 1rem;
         background-color: #ffb87a;
         transform: translateY(0);
+        z-index: 999;
         opacity: 1;
     }
 
@@ -606,6 +612,19 @@ footer {
         background-color: #fcc392;
     }
 
+    .hero-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .categories h1,
+    .wrapper-list ul {
+        text-align: center;
+    }
+
+    .food-img {
+        display: none;
+    }
 
     .hero-wrapper {
         flex-direction: column;
@@ -666,14 +685,26 @@ footer {
     }
 }
 
+/* Animation Section Code  */
+
 @keyframes shake {
-    0%, 100% {transform: translate(0);}
-    25% {transform: translateX(-8px);}
-    75% {transform: translateX(-8px);}
+
+    0%,
+    100% {
+        transform: translate(0);
+    }
+
+    25% {
+        transform: translateX(-8px);
+    }
+
+    75% {
+        transform: translateX(-8px);
+    }
 }
 
 .shake {
-    animation: shake 0.3s ease ;
+    animation: shake 0.3s ease;
     border: 2px solid red !important;
 }
 
