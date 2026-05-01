@@ -10,6 +10,7 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <title>Urban Fork</title>
 </head>
 
@@ -38,13 +39,19 @@
 
             <button class="order-btn">Order Now!</button>
 
+            <div class="hamburger">
+
+                <a href="#"><i class="fa-solid fa-bars"></i></a>
+            
+            </div>
+
         </nav>
 
     </header>
 
     <!-- Home Section Code  -->
 
-    <main class="main" id="Home">
+    <main class="hidden" id="Home">
 
         <div class="hero-wrapper">
 
@@ -69,7 +76,7 @@
 
         <!-- Card Section Code  -->
 
-        <section class="menu">
+        <section class="hidden">
 
             <div class="menu-section">
 
@@ -190,36 +197,46 @@
         <div class="footer-container">
             <div class="footer-logo">
 
-            <a href="index.html">Urban Fork</a>
+                <a href="index.html">Urban Fork</a>
 
-            <p>Where Every Bite Feels Like <span>Home</span></p>
+                <p>Where Every Bite Feels Like <span>Home</span></p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <ul class="links">
+
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <div class="socials-info">
+
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+
+            </div>
 
         </div>
-
-
-        <div class="footer-links">
-
-            <ul class="links">
-
-                <li><a href="#Home">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
-
-            </ul>
-
-        </div>
-        
-    </div>
 
         <div class="footer-bottom">
 
             <p>Copyright line:© 2025 Urban Fork. All rights reserved.</p>
-        
+
         </div>
 
     </footer>
 
+    <script src="script.js"></script>
 
 </body>
 
