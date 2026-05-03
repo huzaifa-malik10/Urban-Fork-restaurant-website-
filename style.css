@@ -279,10 +279,11 @@ button:hover {
 .categories {
     display: flex;
     flex-direction: column;
-    padding: 1rem 0 1rem 4rem;
+    padding: 1.5rem 2rem;
     transition: 0.4s ease;
     background-color: #ffe1c9;
-    border-radius: 70px;
+    border-radius: 20px;
+    word-wrap: break-word;
 }
 
 .categories:hover {
@@ -609,7 +610,17 @@ footer {
     }
 
     .navbar {
+        display: flex;
+        justify-content: space-between;
+        justify-items: center;
         background-color: #fcc392;
+        padding: 0 1rem;
+    }
+
+    .logo {
+        position: static;
+        left: 30%;
+        transform: translateX(-30);
     }
 
     .hero-img img {
@@ -655,6 +666,7 @@ footer {
 
     .menu-wrapper {
         grid-template-columns: 1fr;
+        padding: 0 1rem;
     }
 
     .card-container {
@@ -664,6 +676,12 @@ footer {
     .cards {
         width: 100%;
         text-align: center;
+    }
+
+    .categories {
+        padding: 1rem;
+        text-align: center;
+        align-items: center;
     }
 
     .about-content {
